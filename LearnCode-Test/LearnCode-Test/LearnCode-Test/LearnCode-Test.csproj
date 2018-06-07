@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example\ExtensionMethod\ExtensionMethod.cs" />
+    <Compile Include="Example\ExtensionMethod\Lambda.cs" />
+    <Compile Include="Example\ExtensionMethod\MyDelegate.cs" />
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>

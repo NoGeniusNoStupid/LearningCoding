@@ -23,8 +23,20 @@ namespace LearnCode_Test.Example.ExtensionMethod
     {
         public static void WriteSelf(this string strself,int year)
         {
-            MessageBox.Show(string.Format("我是'{0}',今年'{1}'岁",strself,year));
-            
+            MessageBox.Show(string.Format("我是'{0}',今年'{1}'岁",strself,year));            
+        }
+
+        public static int toInt32(this string str)
+        {
+            try
+            {
+                return Convert.ToInt32(str);
+            }
+            catch (Exception)
+            {
+
+                return -1;
+            }
         }
     }
 }
